@@ -6,16 +6,16 @@ Server-side block reinforcement, territory claims, and intrusion logging.
 
 | Command | Effect |
 | --- | --- |
-| `/fs list` | chest menu of your fellowships: create, roster, PvP, leave |
+| `/fs list` | chest gui of your fellowships |
 
 ( op 2 )
-| `/fs list all` | the same for every fellowship |
+| `/fs list all` | chest gui of all fellowships |
 
-| `/fs invites` | accept or decline invites you've been sent |
-| `/fs uninvite` | withdraw invites you've sent |
+| `/fs invites` | open incoming invites list |
+| `/fs uninvite` | open outgoing invites list |
 
 ( op 4 )
-| `/fs faction <name> [<faction-id>]` | create a faction, or rebind/clear its Middle-earth mod faction restriction |
+| `/fs faction <name> [<faction-id>]` | create a faction, or rebind/clear restrictions |
 | `/fs bypass` | toggle bypass |
 
 Roster buttons: Rename, Icon, Invite, Disband, Promote, Demote/Kick.
@@ -25,13 +25,13 @@ Roster buttons: Rename, Icon, Invite, Disband, Promote, Demote/Kick.
 | Command | Effect |
 | --- | --- |
 | `/clm reinforce` | toggle reinforce mode |
-| `/clm assign` | add a fellowship to the block/claim you're looking at |
-| `/clm assign <player>` | add a player to it |
-| `/clm manage` | toggle permission categories per grantee; Name and Snitch Log buttons |
+| `/clm assign` | add fellowship permissions |
+| `/clm assign <player>` | add player specific permissions |
+| `/clm manage` | open claim or reinforced block management chest gui |
 
 ( op 2 )
-| `/clm view` | toggle the protection overlay |
-| `/clm validate [all]` | drop claim records whose blocks are gone |
+| `/clm view` | toggle protection overlay |
+| `/clm validate [all]` | validate broken claims (worldedit etc) |
 
 (op 4)
 | `/clm bypass` | toggle bypass |
