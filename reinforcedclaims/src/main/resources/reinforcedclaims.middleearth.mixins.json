@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "dev.reinforcedclaims.mixin.middleearth",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LargeDoorBlockMixin",
+    "PlayerDataServiceMixin",
+    "StateSaverAndLoaderAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

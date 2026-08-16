@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "reinforcedclaims",
+	"version": "${version}",
+	"name": "Reinforced Claims",
+	"description": "Block reinforcement, territory claims, and intrusion logging.",
+	"authors": [
+		"War of the Ring Development Team"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/reinforcedclaims/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.reinforcedclaims.ReinforcedClaims"
+		]
+	},
+	"mixins": [
+		"reinforcedclaims.mixins.json",
+		"reinforcedclaims.middleearth.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"middle-earth": "*"
+	}
+}
